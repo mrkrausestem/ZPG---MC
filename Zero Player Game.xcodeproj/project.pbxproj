@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6DAFCEE6293530FB002774DC /* Heroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAFCEE5293530FB002774DC /* Heroes.swift */; };
+		6DAFCEE829353121002774DC /* Monsters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAFCEE729353121002774DC /* Monsters.swift */; };
+		6DAFCEEA2935313D002774DC /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAFCEE92935313D002774DC /* Helpers.swift */; };
 		84DBC67023841F3D00E9D16E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DBC66F23841F3D00E9D16E /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6DAFCEE5293530FB002774DC /* Heroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heroes.swift; sourceTree = "<group>"; };
+		6DAFCEE729353121002774DC /* Monsters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monsters.swift; sourceTree = "<group>"; };
+		6DAFCEE92935313D002774DC /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		84DBC66C23841F3D00E9D16E /* Zero Player Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Zero Player Game"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DBC66F23841F3D00E9D16E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				84DBC66F23841F3D00E9D16E /* main.swift */,
+				6DAFCEE5293530FB002774DC /* Heroes.swift */,
+				6DAFCEE729353121002774DC /* Monsters.swift */,
+				6DAFCEE92935313D002774DC /* Helpers.swift */,
 			);
 			path = "Zero Player Game";
 			sourceTree = "<group>";
@@ -120,6 +129,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				84DBC67023841F3D00E9D16E /* main.swift in Sources */,
+				6DAFCEE6293530FB002774DC /* Heroes.swift in Sources */,
+				6DAFCEE829353121002774DC /* Monsters.swift in Sources */,
+				6DAFCEEA2935313D002774DC /* Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
